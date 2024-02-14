@@ -1,0 +1,22 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore environment-specific files
+venv/
+env/
+__pycache__/
+
+# Ignore data files and trained models (assuming they're generated during development)
+data/
+models/
+
+# Ignore dataset files (replace 'datasets/' with the actual directory containing datasets)
+dataset/
+
+# Ignore system and IDE specific files
+.DS_Store
+.vscode/
+.idea/
